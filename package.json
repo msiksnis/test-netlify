@@ -1,0 +1,23 @@
+{
+  "name": "netlify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "(index.html)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msiksnis/test-netlify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msiksnis/test-netlify/issues"
+  },
+  "homepage": "https://github.com/msiksnis/test-netlify#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
